@@ -21,7 +21,7 @@ def line(katz_deli)
   else 
     line = "The line is currently: "
     katz_deli.each_with_index do | customer, index |
-      line << "#{index + 1}. #{customer}"
+      line << "#{index + 1}. #{customer} "
     end 
     puts line
   end
