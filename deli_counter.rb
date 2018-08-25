@@ -21,16 +21,10 @@ def line(katz_deli)
   else 
     line = "The line is currently: "
     katz_deli.each_with_index do | customer, index |
-      line << "#{index + 1}. #{customer}"
+      line << " #{index + 1}. #{customer}"
     end 
     puts line
   end
 end
 
-# def assign_rooms(attendees)
-#   attendees.each_with_index do | person, index |
-#     room_assignments =  "Hello, #{person}! You'll be assigned to room #{index + 1}!"
-#   end
-#   room_assignments
-# end
 
